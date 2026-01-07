@@ -377,7 +377,7 @@ export default {
     onTitleClick() {
       if (this.projectCardsNonexistent) {
         // forgo the animation, and just show the page
-        this.titleText = 'Tanner Krewson'
+        this.titleText = 'Sanketh Edara'
         this.showPage()
       } else {
         this.popupReplayAnimation()
