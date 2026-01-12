@@ -186,9 +186,9 @@
             button-href="https://github.com/Sanketh23/SpeechSimplified"
             button-text="View on GitHub"
           >
-            A recreation of the board game The Resistance, made in the style of
-            Drawphone and Spyfall. Gather 5 to 10 of your friends, and prepare
-            yourself for major trust issues.
+            A speech analysis tool that evaluates and simplifies spoken
+            responses. Designed to provide clear, actionable feedback to improve
+            communication.
           </project-card>
 
           <project-card
@@ -196,9 +196,9 @@
             button-href="https://github.com/Sanketh23/gpt_chatbot"
             button-text="View on GitHub"
           >
-            A simple quiz to see the difference in the stimulus check amount
-            that one would receive under the final CARES act, versus the
-            Democrats' original, failed act.
+            A customizable chatbot built to answer questions using
+            domain-specific data. Designed to provide accurate, context-aware
+            responses through a simple interface.
           </project-card>
         </div>
         <br />
@@ -206,9 +206,7 @@
           sankethedara,
           <span id="footer-year">{{ year }}</span>
           <br />
-          <a
-            href="https://github.com/tannerkrewson/tannerkrewson.github.io"
-            target="_blank"
+          <a href="https://github.com/Sanketh23" target="_blank"
             >View on GitHub</a
           >
         </footer>
