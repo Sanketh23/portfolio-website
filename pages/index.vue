@@ -165,10 +165,9 @@
             button-href="https://github.com/Sanketh23/FarmSense"
             button-text="View on GitHub"
           >
-            Using your Spotify accounts, Mutual Music creates a playlist of
-            songs you and a friend both love. No more fighting over whose music
-            to play! It's like mutual friends on Facebook, but for your favorite
-            songs.
+            FarmSense is a data-driven tool that helps farmers assess field
+            conditions and risks. Uses environmental and historical data to
+            support smarter, more informed decisions.
           </project-card>
           <project-card
             title="SignSense"
