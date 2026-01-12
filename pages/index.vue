@@ -121,7 +121,10 @@
             button-href="https://github.com/Sanketh23/credit-risk-ml"
             button-text="View on GitHub"
           >
-            A lightweight web app that predicts credit risk based on borrower financial data. Users enter key attributes and instantly receive a risk score powered by a machine learning model trained on historical loan data.
+            A lightweight web app that predicts credit risk based on borrower
+            financial data. Users enter key attributes and instantly receive a
+            risk score powered by a machine learning model trained on historical
+            loan data.
           </project-card>
 
           <project-card
@@ -129,7 +132,9 @@
             button-href="https://github.com/Sanketh23/ai-financial-forecasting"
             button-text="View on GitHub"
           >
-            A data-driven financial forecasting tool that predicts future outcomes based on historical trends. Built to quickly generate projections and insights through an intuitive interface.
+            A data-driven financial forecasting tool that predicts future
+            outcomes based on historical trends. Built to quickly generate
+            projections and insights through an intuitive interface.
           </project-card>
         </div>
 
@@ -139,7 +144,9 @@
             button-href="https://github.com/Sanketh23/garden_grocery"
             button-text="View on Github"
           >
-            A local garden grocery marketplace that connects home growers with nearby buyers. Browse fresh produce, list items for sale, and discover locally grown food in your area.
+            A local garden grocery marketplace that connects home growers with
+            nearby buyers. Browse fresh produce, list items for sale, and
+            discover locally grown food in your area.
           </project-card>
 
           <project-card
@@ -148,8 +155,8 @@
             button-text="View on GitHub"
           >
             A multi-year effort between myself and my friend, Kevin Shannon. Try
-            the local and online multiplayer modes, or test your skills against
-            the wicked-smart AI in single player.
+            the local and online multiplayer t modes, or test your skills
+            against the wicked-smart AI in single player.
           </project-card>
         </div>
         <div class="row">
