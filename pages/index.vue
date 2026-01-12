@@ -174,9 +174,9 @@
             button-href="https://github.com/Sanketh23/SignSense"
             button-text="View on GitHub"
           >
-            Mutual Music's more flexible predecessor. Select two or more Spotify
-            playlists, and Spotify-in-Common will generate a new playlist
-            containing the songs present in all of the selected playlists.
+            A sign language recognition tool that translates gestures into
+            meaningful output. Built to support more accessible communication
+            using computer vision.
           </project-card>
         </div>
 
