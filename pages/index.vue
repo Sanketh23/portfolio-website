@@ -129,9 +129,7 @@
             button-href="https://github.com/Sanketh23/ai-financial-forecasting"
             button-text="View on GitHub"
           >
-            The game that inspired Drawphone, spyfall.crabhat.com, was removed
-            from the Internet. So, I recovered the old code, rewrote most of it,
-            and added a few new features. Give it a shot!
+            A data-driven financial forecasting tool that predicts future outcomes based on historical trends. Built to quickly generate projections and insights through an intuitive interface.
           </project-card>
         </div>
 
