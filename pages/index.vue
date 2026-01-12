@@ -121,10 +121,7 @@
             button-href="https://github.com/Sanketh23/credit-risk-ml"
             button-text="View on GitHub"
           >
-            A simple game of draw what you see, and guess what your friends
-            drew. Over 7 million drawings and guesses have been submitted to
-            date! Grab four or more of your friends, and play Drawphone right in
-            your phone's web browser.
+            A lightweight web app that predicts credit risk based on borrower financial data. Users enter key attributes and instantly receive a risk score powered by a machine learning model trained on historical loan data.
           </project-card>
 
           <project-card
