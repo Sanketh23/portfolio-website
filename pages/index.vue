@@ -139,11 +139,7 @@
             button-href="https://github.com/Sanketh23/garden_grocery"
             button-text="View on Github"
           >
-            Apple and Google have been secretly installing a microchip in
-            smartphones that sends psychoelectric waves into the minds of their
-            users, allowing the highest bidding advertisers to influence
-            consumers' brand preferences. Discover the biggest conspiracy in the
-            history of mankind with PTSU Exposed.
+            A local garden grocery marketplace that connects home growers with nearby buyers. Browse fresh produce, list items for sale, and discover locally grown food in your area.
           </project-card>
 
           <project-card
