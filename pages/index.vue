@@ -45,17 +45,17 @@
                   <img
                     class="company-logo"
                     src="qualcomm.png"
-                    @click="popupGS"
+                    @click="popupQualcomm"
                   />
                 </div>
                 <br />
                 <h5 class="card-subtitle">Interim Engineering Intern</h5>
-                <div class="card-text">May 2025 - August 2025</div>
+                <div class="card-text">May 2025 - Aug 2025</div>
                 <div class="card-buttons">
                   <button
                     type="button"
                     class="btn btn-outline-light"
-                    @click="popupGS"
+                    @click="popupQualcomm"
                   >
                     More Info
                   </button>
@@ -70,17 +70,17 @@
                   <img
                     class="company-logo"
                     src="Caterpillar.png"
-                    @click="popupDisney"
+                    @click="popupCaterpillar"
                   />
                 </div>
                 <br />
-                <h5 class="card-subtitle">AI/ML Engineering Co-Op</h5>
-                <div class="card-text">August 2023 - May 2024</div>
+                <h5 class="card-subtitle">AI/ML Software Engineering Co-Op</h5>
+                <div class="card-text">Aug 2023 - May 2024</div>
                 <div class="card-buttons">
                   <button
                     type="button"
                     class="btn btn-outline-light"
-                    @click="popupDisney"
+                    @click="popupCaterpillar"
                   >
                     More Info
                   </button>
@@ -95,17 +95,17 @@
                   <img
                     class="company-logo"
                     src="beacon.png"
-                    @click="popupESPN"
+                    @click="popupBeacon"
                   />
                 </div>
                 <br />
-                <h5 class="card-subtitle">Software Engineer Intern</h5>
-                <div class="card-text">May 2024 - August 2024</div>
+                <h5 class="card-subtitle">Software Engineering Intern</h5>
+                <div class="card-text">May 2024 - Aug 2024</div>
                 <div class="card-buttons">
                   <button
                     type="button"
                     class="btn btn-outline-light"
-                    @click="popupESPN"
+                    @click="popupBeacon"
                   >
                     More Info
                   </button>
@@ -283,89 +283,57 @@ export default {
       Popup.fire({
         title: 'Email me!',
         html:
-          '<div style="color: #8a614c; text-align:center;"><a href="mailto:tannerkrewson@gmail.com">tannerkrewson@gmail.com</a></div>'
+          '<div style="color: #8a614c; text-align:center;"><a href="mailto:sanketh.edara@gmail.com">sanketh.edara@gmail.com</a></div>'
       })
     },
 
-    popupESPN() {
+    popupBeacon() {
       const innerHTML =
-        'ESPN was my first internship! I worked out of ESPN Headquarters in Bristol, Connecticut. I spent the first ​6​ ​weeks​ on ​the​ ​Consumer​ ​Tech​ ​Ops​ ​team,​ ​' +
-        'diagnosing​ ​and​ ​fixing​ ​bugs across​ ​ESPN.com​. I spent the ' +
-        'remaining ​4​ ​weeks​ ​on​ ​the​ ESPN.com ​feature​ ​development​ ​team,​ ​working on the homepage news feed, a redesign ' +
-        "for MLB Gamecast, and an internal tool called Feed Manager. Here's " +
-        'what I put on my resume about it:<br><br>' +
-        '<ul style="text-align: left;"><li>Designed​ ​and​ ​implemented​ ​live​ ​updating​ ​for​ ​news​ ​feeds​ ​on​ ​ESPN.com</li>' +
-        '<li>Recognized and corrected a deployment flaw that could have taken down the site</li>' +
-        '<li>Resolved​ ​long-standing​ ​major​ ​UI​ ​issues​ ​with​ ​an​ ​internal​ ​translations​ ​tool</li>' +
-        '<li>Wrote new features in React for a tool used by editors to write and publish articles</li>' +
-        '<li>Navigated a legacy code base written with a proprietary back-end language called Tea</li>' +
+        '<p><strong>Tech:</strong> Python, Whisper-1, NLP, ML Pipelines</p>' +
+        '<p><strong>QXO (Beacon)</strong> - Software Engineering Intern</p>' +
+        '<p>May 2024 - Aug 2024 • Herndon, VA</p>' +
+        '<ul style="text-align: left;">' +
+        '<li>Designed and deployed an NLP-based Speech Evaluation Tool to analyze presentation clarity, pacing, and filler-word usage using AI models.</li>' +
+        '<li>Integrated TF-IDF, Logistic Regression, and BERT embedding pipelines to deliver interpretable, accurate AI-driven scoring.</li>' +
+        '<li>Standardized onboarding feedback with AI automation, reducing manual evaluation effort by 75%.</li>' +
         '</ul>'
       Popup.fire({
         html: innerHTML,
-        imageUrl: 'https://i.imgur.com/aYKfZ62.jpg'
+        imageUrl: 'beacon.png'
       })
     },
 
-    popupDisney() {
+    popupCaterpillar() {
       const innerHTML =
-        "<p>My second internship was at Disney's Seattle office. I worked on Studio Northstar, a team that develops ​" +
-        'the attraction and show pages for the Disney parks. Our main task for the summer was a redesign of the ' +
-        "attractions pages from PHP to Angular 5. Here's what I put on my resume about it:<br><br>" +
-        '<ul style="text-align: left;"><li>Worked on a full stack redesign of the Disney attractions pages in Angular 5 and Node</li>' +
-        '<li>Created four major UI components in Angular 5 and ensured 100% unit test coverage</li>' +
-        "<li>Wrote a feature that themes the UI by extracting colors from an attraction's image</li>" +
-        '<li>Took the initiative to refactor and document the Angular 5 project as it grew</li>' +
-        "<li>Designed an easter egg that reveals the developers' names when activated</li>" +
-        '<li>Made many bug fixes and minor features across legacy PHP and Angular 1 codebases</li>' +
-        '</ul></p>'
+        '<p><strong>Tech:</strong> Python, R, ML Modeling, Data Science</p>' +
+        '<p><strong>Caterpillar Inc.</strong> - AI/ML Software Engineering Co-Op</p>' +
+        '<p>Aug 2023 - May 2024 • West Lafayette, IN</p>' +
+        '<ul style="text-align: left;">' +
+        '<li>Developed ML models (NBEATS, ARIMA, LSTM) for EV charging vehicles, achieving 87% accuracy for State of Charge, Current, and Voltage.</li>' +
+        '<li>Integrated predictive analytics dashboards with Flutter and Firebase to deliver real-time operational insights.</li>' +
+        '<li>Improved EV fleet management efficiency using AI-driven forecasting to reduce operational uncertainty.</li>' +
+        '</ul>'
       Popup.fire({
         html: innerHTML,
-        imageUrl: 'https://i.imgur.com/Rzpnv4A.jpg'
+        imageUrl: 'Caterpillar.png'
       })
     },
 
-    popupGS() {
+    popupQualcomm() {
       const innerHTML =
-        '<p>My third internship was at Goldman Sachs in NYC. It ' +
-        'was an awesome experience going from never having taken an econ class ' +
-        'to working on Wall Street! I worked on the Goldman Sachs Asset ' +
-        'Management Compliance Automation team. My project was to redesign an ' +
-        'existing dashboard for compliance officers to easily see what trades ' +
-        'they need to review. I did it with React, Redux, and a bit of Java.​' +
-        '</p>'
+        '<p><strong>Tech:</strong> C++, Java, Android Dev</p>' +
+        '<p><strong>Qualcomm Technologies, Inc.</strong> - Interim Engineering Intern</p>' +
+        '<p>May 2025 - Aug 2025</p>' +
+        '<ul style="text-align: left;">' +
+        '<li>Worked on XR glasses platform with real-time orientation tracking and power-efficient sensor fusion.</li>' +
+        '<li>Developed and deployed an Extended Kalman Filter on the Hexagon DSP (Snapdragon SM8150) for real-time orientation estimation.</li>' +
+        '<li>Integrated with Qualcomm Sensor Execution Environment to extract accelerometer and gyroscope data.</li>' +
+        '<li>Optimized EKF using Hexagon Vector Extensions, reducing latency and improving DSP efficiency by 30%.</li>' +
+        '<li>Delivered major power savings by offloading CPU to DSP: CPU peak 1.09W vs DSP peak 0.16W (85% reduction), CPU avg 0.724W vs DSP avg 0.073W (90% reduction).</li>' +
+        '</ul>'
       Popup.fire({
         html: innerHTML,
-        imageUrl: 'https://i.imgur.com/hYkR64w.jpg'
-      })
-    },
-
-    popupDSSIntern() {
-      const innerHTML =
-        '<p>For my fourth and final internship, I spent my fall semester ' +
-        'at Disney Streaming in NYC for the launch of Disney+. ' +
-        'I joined the Web Platform Architecture team, which manages ' +
-        'the servers for disneyplus.com on AWS. I also created an internal ' +
-        'tool with Next.js and React to quickly find and view information ' +
-        'about any microservice in the company.' +
-        '</p>'
-      Popup.fire({
-        html: innerHTML,
-        imageUrl: 'https://i.imgur.com/dmIzkPU.png'
-      })
-    },
-
-    popupDSSFull() {
-      const innerHTML =
-        '<p>After graduating in May 2020, I returned to Disney Streaming ' +
-        'as a full-time software engineer. I onboarded ' +
-        'remotely due to the COVID-19 pandemic, but in July 2021, I moved to ' +
-        'New York City. I am on the Web Playback Experience ' +
-        'team, which develops the web browser video player for Disney+, Hulu ' +
-        'ESPN+, Star+, and NHL.TV.' +
-        '</p>'
-      Popup.fire({
-        html: innerHTML,
-        imageUrl: 'https://i.imgur.com/wsHJaI0.jpg'
+        imageUrl: 'qualcomm.png'
       })
     },
 
