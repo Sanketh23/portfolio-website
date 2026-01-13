@@ -154,9 +154,9 @@
             button-href="https://github.com/Sanketh23/league-management"
             button-text="View on GitHub"
           >
-            A multi-year effort between myself and my friend, Kevin Shannon. Try
-            the local and online multiplayer t modes, or test your skills
-            against the wicked-smart AI in single player.
+            A rec league management system for organizing teams, schedules, and
+            standings. Coaches and players can easily view games, scores, and
+            league updates in one place.
           </project-card>
         </div>
         <div class="row">
