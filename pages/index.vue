@@ -120,7 +120,7 @@
             title="Rimble"
             button-href="https://github.com/Sanketh23/rimble"
             button-text="View on GitHub"
-            secondary-button-href="https://rimble.example.com"
+            secondary-button-href="https://rimble.vercel.app"
             secondary-button-text="View Site"
           >
             A daily NBA trivia site built as a full-stack app. Supabase powers
