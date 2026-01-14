@@ -11,10 +11,30 @@
       <slot></slot>
     </div>
 
-    <div v-if="buttonHref || buttonText">
-      <a :href="buttonHref" target="_blank" rel="noopener">
+    <div
+      v-if="
+        buttonHref || buttonText || secondaryButtonHref || secondaryButtonText
+      "
+      class="project-buttons"
+    >
+      <a
+        v-if="buttonHref || buttonText"
+        :href="buttonHref"
+        target="_blank"
+        rel="noopener"
+      >
         <button type="button" class="btn btn-outline-light">
           {{ buttonText || 'Learn more' }}
+        </button>
+      </a>
+      <a
+        v-if="secondaryButtonHref || secondaryButtonText"
+        :href="secondaryButtonHref"
+        target="_blank"
+        rel="noopener"
+      >
+        <button type="button" class="btn btn-outline-light">
+          {{ secondaryButtonText || 'Learn more' }}
         </button>
       </a>
     </div>
@@ -30,6 +50,8 @@ export default {
     title: { type: String, default: '' },
     buttonHref: { type: String, default: '' },
     buttonText: { type: String, default: '' },
+    secondaryButtonHref: { type: String, default: '' },
+    secondaryButtonText: { type: String, default: '' },
     cardWidth: { type: String, default: '6' },
     rocketcrab: { type: Boolean, default: false }
   }
@@ -56,5 +78,11 @@ export default {
 }
 .rocketcrab-superscript img {
   margin: -1.4em -0.2em -1.6em -0.2em;
+}
+.project-buttons a {
+  margin-right: 0.4em;
+}
+.project-buttons a:last-child {
+  margin-right: 0;
 }
 </style>

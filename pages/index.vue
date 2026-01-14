@@ -117,6 +117,18 @@
 
         <div class="row">
           <project-card
+            title="Rimble"
+            button-href="https://github.com/your-username/rimble"
+            button-text="View on GitHub"
+            secondary-button-href="https://rimble.example.com"
+            secondary-button-text="View Site"
+          >
+            A daily NBA trivia site built as a full-stack app. Supabase powers
+            the backend, and the frontend updates each day with a new challenge
+            for users.
+          </project-card>
+
+          <project-card
             title="Credit Risk Prediction Tool"
             button-href="https://github.com/Sanketh23/credit-risk-ml"
             button-text="View on GitHub"
@@ -126,7 +138,9 @@
             risk score powered by a machine learning model trained on historical
             loan data.
           </project-card>
+        </div>
 
+        <div class="row">
           <project-card
             title="Financial Forecasting Tool"
             button-href="https://github.com/Sanketh23/ai-financial-forecasting"
@@ -136,9 +150,7 @@
             outcomes based on historical trends. Built to quickly generate
             projections and insights through an intuitive interface.
           </project-card>
-        </div>
 
-        <div class="row">
           <project-card
             title="Garden Grocery Marketplace"
             button-href="https://github.com/Sanketh23/garden_grocery"
@@ -148,7 +160,9 @@
             nearby buyers. Browse fresh produce, list items for sale, and
             discover locally grown food in your area.
           </project-card>
+        </div>
 
+        <div class="row">
           <project-card
             title="Rec League Management System"
             button-href="https://github.com/Sanketh23/league-management"
@@ -158,8 +172,7 @@
             standings. Coaches and players can easily view games, scores, and
             league updates in one place.
           </project-card>
-        </div>
-        <div class="row">
+
           <project-card
             title="Farm Sense"
             button-href="https://github.com/Sanketh23/FarmSense"
@@ -169,6 +182,9 @@
             conditions and risks. Uses environmental and historical data to
             support smarter, more informed decisions.
           </project-card>
+        </div>
+
+        <div class="row">
           <project-card
             title="SignSense"
             button-href="https://github.com/Sanketh23/SignSense"
@@ -178,9 +194,7 @@
             meaningful output. Built to support more accessible communication
             using computer vision.
           </project-card>
-        </div>
 
-        <div class="row">
           <project-card
             title="SpeechSimplified"
             button-href="https://github.com/Sanketh23/SpeechSimplified"
@@ -189,16 +203,6 @@
             A speech analysis tool that evaluates and simplifies spoken
             responses. Designed to provide clear, actionable feedback to improve
             communication.
-          </project-card>
-
-          <project-card
-            title="Custom Chatbot"
-            button-href="https://github.com/Sanketh23/gpt_chatbot"
-            button-text="View on GitHub"
-          >
-            A customizable chatbot built to answer questions using
-            domain-specific data. Designed to provide accurate, context-aware
-            responses through a simple interface.
           </project-card>
         </div>
         <br />
