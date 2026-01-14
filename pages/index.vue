@@ -118,7 +118,7 @@
         <div class="row">
           <project-card
             title="Rimble"
-            button-href="https://github.com/your-username/rimble"
+            button-href="https://github.com/Sanketh23/rimble"
             button-text="View on GitHub"
             secondary-button-href="https://rimble.example.com"
             secondary-button-text="View Site"
